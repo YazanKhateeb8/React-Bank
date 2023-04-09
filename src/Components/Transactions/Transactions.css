@@ -1,0 +1,94 @@
+.transactions {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 2%;
+  border-radius: 15px;
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  grid-gap: 30px;
+  box-shadow: 0px 0px 15px #ccc;
+  background-color: #f4f4f4;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.transaction {
+  display: grid;
+  grid-template-columns: 2fr 1fr; 
+  border: 1px solid #ddd;
+  box-shadow: 0px 0px 15px #ddd;
+  padding: 20px;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.transaction:hover {
+  box-shadow: 0px 0px 30px #ddd;
+}
+
+.transaction-category {
+  display: flex;
+  flex-direction: column;
+}
+
+.transaction-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.transaction-button label {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.deposit {
+  background-color: #49c978;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.withdraw {
+  background-color: #d33f49;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.delete-button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #f00;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.delete-button:hover {
+  background-color: #c00;
+}
+
+  
+
+
+
+  @media screen and (max-width: 768px) {
+    .transactions {
+      width: 80%;
+      margin: 5% 10%;
+      grid-template-rows: repeat(2, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .transactions {
+      width: 90%;
+      margin: 5% auto;
+      grid-template-rows: repeat(3, 1fr);
+      grid-gap: 10px;
+    }
+  }

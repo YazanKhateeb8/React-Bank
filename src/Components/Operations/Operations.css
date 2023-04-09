@@ -1,0 +1,62 @@
+.insert-transaction {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 500px;
+    margin:  0 auto;
+    margin-top: 100px;
+    text-align: center;
+    box-shadow: 0px 0px 5px #ccc;
+  }
+  
+  .insert-transaction h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .insert-transaction input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #ccc;
+    font-size: 18px;
+  }
+  
+  .insert-transaction .deposit-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .insert-transaction .deposit-button:hover {
+    background-color: #3e8e41;
+    box-shadow: 0px 0px 5px #ccc;
+  }
+  
+  .insert-transaction .withdraw-button {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .insert-transaction .withdraw-button:hover {
+    background-color: #c0392b;
+    box-shadow: 0px 0px 5px #ccc;
+  }
+  
